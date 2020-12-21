@@ -2,6 +2,59 @@
 
 ## 100 Projector
 
+https://www.beamerexpert.nl/epson-eb-w05.html?gclid=EAIaIQobChMI8PvZ3o_f7QIVRAGLCh0HRgWhEAQYAiABEgK0EfD_BwE
+
+Item: EPSON 3LCD (EB-W50)
+
+EAN code: 8715946639499
+
+Description:
+
+Price: € 429,00 incl. VAT)
+
+To bring the projector to the exact right height in relation to the screen, another piece of equipment is the following:
+
+https://www.amazon.com/HFS-Overall-Scissor-Platform-Bearing/dp/B01EKNSI6K?ref_=ast_sto_dp
+
+Item: HFS (R) Plate 8x8; Overall Height 10"; Lab Jack Scissor Stand Platform Lab Load Bearing 15kg/33lbs
+
+Production Description:
+- Lifting platform is a kind of supporting instrument used to adjust the position and height of objects. It is used to lift physical and chemical experimental objects or instruments. 
+- Dimensions (Inches): 8x8"
+- Max Height (Inches): 10"
+- Fully Lowered (Inches): 3"
+
+Application:
+
+- Material: stainless steel
+- Measurements: experimental lift by the panel, under the floor and the rotating shaft, handwheel and other components.
+- Purpose: lift for regulating the height position of the object a support apparatus for physical, chemical, biological experiments lift the object or instrument.
+- How to use: lift place a smooth, rotating the hand wheel to lift on the front panel can be adjusted to the desired height.
+- Maintenance: after use, should be kept clean and stored in a cool, dry, non-corrosive gases
+
+Product Details:
+- Supporting plane: Made of high quality stainless steel, it has strong compactness, is not easy to rust, od corrosion resistance and is firm and durable.
+- Handle: Bakelite handle. Accurate height adjustment. Accurate and convenient
+- Bracket: Made of galvanized material, it is not easy to corrode and has a stable structure, which is strong and durable.
+- Base: Stainless steel base, four corners with soft pads, smooth and stable, ensure stable lifting
+
+Technical Details:
+- Manufacturer:	HFS
+- Part Number:	JSSP-8x8x10
+- Item Weight:	3.25 pounds
+- Package Dimensions:	9.9 x 8.4 x 3.6 inches
+- Item model number:	CECOMINOD087038
+- Is Discontinued By Manufacturer:	No
+- Size:	8x8x10"
+- Item Package Quantity:	1
+- Measurement System:	Inch
+- Certification:	10x8.3x3.4 = 3.9
+- Batteries Included?:	No
+- Batteries Required?:	No
+
+Price: USD 29.99 (incl. VAT, excl. Shipping)
+
+
 ## 200 Screen
 
 ### Use Neoprene Scuba Material for a black background backdrop.
