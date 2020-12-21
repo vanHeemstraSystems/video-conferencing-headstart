@@ -2,10 +2,20 @@
 
 ## 100 Desk & Seat(s)
 
+See also [README.md](./100/README.md)
+
 ## 200 Computer(s) & Peripherals
+
+See also [README.md](./200/README.md)
 
 ## 300 Projector & Screen
 
+See also [README.md](./300/README.md)
+
 ## 400 Camera(s)
 
+See also [README.md](./400/README.md)
+
 ## 500 Software
+
+See also [README.md](./500/README.md)
