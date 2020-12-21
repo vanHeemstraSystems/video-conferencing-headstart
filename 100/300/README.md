@@ -6,7 +6,7 @@
 
 ### Use Neoprene Scuba Material for a black background backdrop.
 
-Neoprene Scuba prevents glare when a projector projects light on it whilst at the same time the image is properly depicted, because of the lack of shine on this material.
+Neoprene Scuba prevents glare when a projector projects light on it whilst at the same time the image is properly depicted, because of the lack of shine on this material. NOTE: Even though when seen by the human eye and no glare seen, instead a video camera will pick up on the glare. Neoprene Scuba will even not show a glare in video cameras. Another advangtage is the the rest of the room can be kept relatively lights as the light will not bounce off the Neoprene Scuba either. The texture absorbs all light.
 
 https://www.stoffenenzo.nl/Neopreen-Scuba-Zwart?gclid=EAIaIQobChMIvMCwn4Tf7QIV4gyLCh2ZSQW7EAQYASABEgLxc_D_BwE
 
