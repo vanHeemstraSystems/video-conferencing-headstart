@@ -2,8 +2,15 @@
 
 ## 100 Desk
 
+Baxton Studio Half-Round Retro Table Chrome 
 
+Item: - 
 
+Description: Baxton Studio Half-Round Retro Table Chrome 
+
+Price: - (?)
+
+*NOTE*: I have enlarged the table legs, so as to be able to stand behind it, rather than sit. The accompanying barstool allows for an occassional sitting down.
 
 ## 200 Seat(s)
 
