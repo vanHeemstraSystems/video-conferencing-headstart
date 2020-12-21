@@ -17,3 +17,19 @@ Specifications:
 - Extra long 1.8m replaceable cable
 
 Price: $69.99
+
+To hold the camera in a fixed position, we also use the following:
+
+https://www.alibaba.com/product-detail/Mini-Flexible-Sponge-Octopus-Tripod-Holder_60828501231.html
+
+Item: Mini Flexible Sponge Octopus Tripod Holder Mount Adapter for Mobile Phone Tripod
+
+Description: Mini Flexible Sponge Octopus Tripod Holder Mount Adapter for Mobile Phone Tripod
+
+Specifications:
+- Color:	Gray
+- Material:	Sponge+ABS
+- Weight:	57g
+- Keywords:	mini sponge tripod for cellphone
+
+Price: Euro 20 (estimated)
