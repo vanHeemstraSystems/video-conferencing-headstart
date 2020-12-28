@@ -19,3 +19,7 @@ See also [README.md](./400/README.md)
 ## 500 Software
 
 See also [README.md](./500/README.md)
+
+## 600 Lighting
+
+See also [README.md](./600/README.md)
