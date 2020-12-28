@@ -3,6 +3,8 @@
 
 This repository documents the setup and functioning of video conferencing.
 
+See also "Entire Youtube Studio Setup ON ONE DESK!" at https://www.youtube.com/watch?v=WedG8LKO6ks
+
 ## 100 Setup of Video Conferencing
 
 See also [README.md](./100/README.md)
