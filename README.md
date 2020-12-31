@@ -11,6 +11,8 @@ See also ""How To: Apple Style Video" at https://www.youtube.com/watch?v=gJp96XJ
 
 See also "How To Create Apple White Background Videos And Make Your Videos Look More Professional" at https://www.youtube.com/watch?v=rZP0qKVJOlc
 
+See also "Tutorial: How to shoot cinematic tech videos like apple" at https://www.youtube.com/watch?v=HiAiKPW6QPQ
+
 ## 100 Setup of Video Conferencing
 
 See also [README.md](./100/README.md)
