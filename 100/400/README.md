@@ -1,4 +1,4 @@
-# 400 Camera(s)
+# 400 Camera(s) & Peripherals
 
 https://www.lenovo.com/us/en/accessories-and-monitors/webcams-and-video/webcams/NET-BO-500-FHD-Webcam/p/4XC0V13599
 
