@@ -12,7 +12,7 @@ See also [README.md](./200/README.md)
 
 See also [README.md](./300/README.md)
 
-## 400 Camera(s)
+## 400 Camera(s) & Peripherals
 
 See also [README.md](./400/README.md)
 
