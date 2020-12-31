@@ -9,6 +9,8 @@ See also "Lighting Tips for Vlogging: How to Light" at https://filmora.wondersha
 
 See also ""How To: Apple Style Video" at https://www.youtube.com/watch?v=gJp96XJ9VhA
 
+See also "How To Create Apple White Background Videos And Make Your Videos Look More Professional" at https://www.youtube.com/watch?v=rZP0qKVJOlc
+
 ## 100 Setup of Video Conferencing
 
 See also [README.md](./100/README.md)
