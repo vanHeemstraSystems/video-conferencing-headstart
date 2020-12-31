@@ -23,3 +23,7 @@ See also [README.md](./500/README.md)
 ## 600 Lighting
 
 See also [README.md](./600/README.md)
+
+## 700 Monitor(s) & Peripherals
+
+See also [README.md](./700/README.md)
