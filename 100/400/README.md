@@ -1,5 +1,7 @@
 # 400 Camera(s) & Peripherals
 
+## Camera(s)
+
 https://www.lenovo.com/us/en/accessories-and-monitors/webcams-and-video/webcams/NET-BO-500-FHD-Webcam/p/4XC0V13599
 
 Item: Lenovo 500 FHD Webcam
@@ -18,18 +20,21 @@ Specifications:
 
 Price: $69.99
 
-To hold the camera in a fixed position, we also use the following:
+## Peripherals
 
-https://www.alibaba.com/product-detail/Mini-Flexible-Sponge-Octopus-Tripod-Holder_60828501231.html
+To hold the camera in a fixed, adjustable position, we also use the following:
 
-Item: Mini Flexible Sponge Octopus Tripod Holder Mount Adapter for Mobile Phone Tripod
+https://www.amazon.nl/OXENDURE-webcamstandaard-armstandaard-compatibel-Logitech/dp/B07RNHZYGW/ref=pd_rhf_eetyp_p_img_1?_encoding=UTF8&psc=1&refRID=PZEGQJMH6R9BF6E7K2Q8
 
-Description: Mini Flexible Sponge Octopus Tripod Holder Mount Adapter for Mobile Phone Tripod
+Item: OXENDURE webcamstand 22 inch armstand with foot
+
+Description: Webcam Stand with foot
 
 Specifications:
-- Color:	Gray
-- Material:	Sponge+ABS
-- Weight:	57g
-- Keywords:	mini sponge tripod for cellphone
+- Built-in 1/4 "screw thread and turntable that rotates 360 degrees fits for all 1/4" screw web cameras, such as Logitech Webcam C925e C922x C922 C930e C930 C920 C615, GoPro Hero 8/7/6/5, Arlo Ultra / Pro / Pro 2 / Pro 3.
+- Sizes & Weights: Max. Height: 22 inches / 56 centimeters that can be rotated 360 degrees; Load Capacity: 1.76 pounds / 0.8 kilograms.
+- High Quality: Sturdy all-metal camera support arm with surface anti-rust treatment, high reliability. Double support fixed arm and double thick spring, can prevent the camera from falling off, high stability, high durability.
+- Foldable type, easy to carry. With the adjustable arms you can easily carry it with you and adjust the suitable angle and height.
+- Quality guarantee: try it without risk! If your webcam stand has quality issues, our company offers three months warranty and 30 days unconditional return policy.
 
-Price: Euro 20 (estimated)
+Price: Euro 27,99
