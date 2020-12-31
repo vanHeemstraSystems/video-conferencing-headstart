@@ -7,6 +7,8 @@ See also "Entire Youtube Studio Setup ON ONE DESK!" at https://www.youtube.com/w
 
 See also "Lighting Tips for Vlogging: How to Light" at https://filmora.wondershare.com/vlogger/lighting-tips-for-youtube.html
 
+See also ""How To: Apple Style Video" at https://www.youtube.com/watch?v=gJp96XJ9VhA
+
 ## 100 Setup of Video Conferencing
 
 See also [README.md](./100/README.md)
