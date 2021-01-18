@@ -23,6 +23,6 @@ Product details:
 - Depth:	70 cm
 - Supplied With:	The tilthead, 360° rotating system, internal & external diffusers and carrying bag
 
-Price: €1.099,-  (EXPENSIVE!!)
+Price: € 1.099,-  (EXPENSIVE!!), altenative is https://www.kamera-express.nl/product/12233800/elinchrom-rotalux-softbox-strip-35x100cm-ex for € 129,-
 
 See also: 
