@@ -79,5 +79,34 @@ I recommend buying 3 meters so that the surface in total is 147 cm (height) by 3
 
 ### Use Stands to lift the backdrop.
 
+https://www.cameranu.nl/nl/p918175/elinchrom-quick-lock-statief?channable=006db9696400393138313735d8&bgid=39342-AGI-37756405836-ASI-301444092405-918175&gclid=CjwKCAiAgJWABhArEiwAmNVTB6bAckgiSQNrmAd1xjAbksFV_pCmj24ibjxVYi13PEwIQa7Ep7Pd6xoCMDcQAvD_BwE
+
+Item: ELINCHROM QUICK LOCK STAND
+
+Description:
+The Elinchrom Quick lock tripod has a load capacity of five kilograms and is adjustable in height from 88 to 235 centimeters. This aluminum lamp stand is equipped with a quick lock mechanism and is made of high-quality aluminum. Because this tripod can be quickly folded in and out, it can be used both in the studio and on location.
+
+Product Details:
+- 5 kilograms maximum load capacity
+- Adjustable in height from 88 to 235cm
+- Aluminum tripod with quick lock mechanism
+- Made of high quality aluminum
+- Folded length of 85 centimeters
+- With universal 16mm spigot
+- Weighs 1.45 kilograms
+
+Price: € 59,00 per stand (We need two stands)
+
 ### Use a Rod between the Stands to support the backdrop horizontally.
 
+https://www.gamma.nl/assortiment/zoeken?text=buis
+
+Item: ROD
+
+Description:
+...
+
+Product Details:
+- ...
+
+Price: € ??,?? per stand (We need one rod)
