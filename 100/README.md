@@ -27,3 +27,7 @@ See also [README.md](./600/README.md)
 ## 700 Monitor(s) & Peripherals
 
 See also [README.md](./700/README.md)
+
+## 800 Room
+
+See also [README.md](./800/README.md)
