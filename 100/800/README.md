@@ -6,4 +6,4 @@ Width: 260 cm
 Height: 209 cm
 Depth: 220 cm
 
-See image ""
+See image "Video Conferencing - Minimal Space Required.png"
