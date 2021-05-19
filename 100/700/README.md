@@ -19,3 +19,9 @@ Description:
 Specifications:
 
 Price: ..
+
+__
+
+Item: Enyoyo LCD Monitor
+
+See https://github.com/vanHeemstraSystems/enyoyo-monitor-headstart
