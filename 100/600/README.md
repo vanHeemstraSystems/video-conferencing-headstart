@@ -4,6 +4,10 @@ See also "Lighting Tips for Vlogging: How to Light" at https://filmora.wondersha
 
 See also "Three-Point Lighting" at https://youtu.be/7mlfajPCKqM
 
+See also "How to Photograph Clothing for Your Ecommerce Store" at https://pixc.com/blog/how-to-photograph-clothing-for-your-ecommerce-store/
+
+
+
 ## 100 Key Light
 
 ## 200 Fill Light
