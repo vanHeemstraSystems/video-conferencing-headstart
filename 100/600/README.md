@@ -10,7 +10,7 @@ See also "How to Get the Perfect Lighting for Video" at https://www.techsmith.co
 
 ![image](https://user-images.githubusercontent.com/12828104/124596104-2abb2080-de62-11eb-8b67-fcfa3596631f.png)
 
-
+![image](https://user-images.githubusercontent.com/12828104/124596501-a321e180-de62-11eb-8d29-f55297b26c45.png)
 
 ## 100 Key Light
 
