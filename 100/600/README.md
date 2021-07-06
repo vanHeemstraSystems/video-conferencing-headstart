@@ -14,9 +14,15 @@ See also "How to Get the Perfect Lighting for Video" at https://www.techsmith.co
 
 ## 100 Key Light
 
+The ***key light*** should be the brightest of the three and provides the bulk of light to your subject.
+
 ## 200 Fill Light
 
+The ***fill light*** eliminates shadows caused by the key light. Your fill should be about half the intensity of your key so that it still eliminates shadows, but doesn’t produce a flat-looking shot due to the fill and key lights matching too closely.
+
 ## 300 Back Light
+
+The ***back light*** separates your subject from the background. This creates depth and prevents a flat-looking shot. Your backlight can be hard light (no diffusion), as it won’t create shadows visible to the camera on the subject’s face.
 
 Considering ELINCHROME LITE MOTIV STRIP BOX (33 cm width x 175 cm height) EL28003
 
