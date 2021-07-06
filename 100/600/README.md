@@ -6,7 +6,11 @@ See also "Three-Point Lighting" at https://youtu.be/7mlfajPCKqM
 
 See also "How to Photograph Clothing for Your Ecommerce Store" at https://pixc.com/blog/how-to-photograph-clothing-for-your-ecommerce-store/
 
+See also "How to Get the Perfect Lighting for Video" at https://www.techsmith.com/blog/get-perfect-lighting-video/
+
 ![image](https://user-images.githubusercontent.com/12828104/124596104-2abb2080-de62-11eb-8b67-fcfa3596631f.png)
+
+
 
 ## 100 Key Light
 
