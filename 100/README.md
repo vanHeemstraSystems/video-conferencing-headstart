@@ -1,5 +1,7 @@
 # 100 Setup of Video Conferencing
 
+![Video Conferencing - Setup](https://user-images.githubusercontent.com/12828104/130403597-11f6f762-e854-47b1-89d5-dbf655b59d94.png)
+
 ## 100 Desk & Seat(s)
 
 See also [README.md](./100/README.md)
