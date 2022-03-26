@@ -5,3 +5,5 @@
 Book "OBS-Super-User-Guidebook-Broadcaster" at https://www.amazon.co.uk/OBS-Super-User-Guidebook-Broadcaster-ebook/dp/B09NMK39TW/ref=sr_1_9?crid=W1OFZPHH60XJ&keywords=obs+software&qid=1648283824&sprefix=obs+software%2Caps%2C66&sr=8-9
 
 Purchased on 26 March 2022 as Kindle book: https://read.amazon.co.uk/reader?asin=B09NMK39TW&ref_=dbs_t_r_kcr
+
+See also "OBS Guides" at https://obsproject.com/forum/resources/categories/guides-general.9/
