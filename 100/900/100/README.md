@@ -1,6 +1,8 @@
 # 100 - Open Broadcaster System (OBS)
 
-Book "The Offical Guide to Open Broadcaster Software (OBS)" at https://read.amazon.co.uk/reader?asin=B07RZVVCWC&ref_=kwl_kr_iv_rec_2&language=en-GB
+![51uc6WGwkGL](https://user-images.githubusercontent.com/12828104/160279916-39170623-852a-4f01-ae2c-f242dd03122f.jpg)
+
+Book "The Offical Guide to Open Broadcaster Software (OBS)" at https://www.amazon.co.uk/gp/product/B07RZVVCWC?notRedirectToSDP=1&ref_=dbs_mng_calw_0&storeType=ebooks
 
 Purchase on 27 March 2022 as Kindle book: https://read.amazon.co.uk/reader?asin=B07RZVVCWC&ref_=kwl_kr_iv_rec_2&language=en-GB
 
