@@ -37,3 +37,12 @@ See also [README.md](./800/README.md)
 ## 900 Guidelines
 
 See also [README.md](./900/README.md)
+
+# 1000 Wastebin & Mount
+
+See also [README.md](./1000/README.md)
+
+# 1100 Cupholder & Mount
+
+See also [README.md](./1100/README.md)
+
