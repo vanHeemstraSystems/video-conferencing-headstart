@@ -49,3 +49,7 @@ See also [README.md](./1100/README.md)
 ## 1200 24-hours Clock
 
 See also [README.md](./1200/README.md)
+
+## 1300 Headphones
+
+See also [README.md](./1300/README.md)
