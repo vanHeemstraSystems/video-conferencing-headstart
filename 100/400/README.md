@@ -4,7 +4,7 @@
 
 https://www.lenovo.com/us/en/accessories-and-monitors/webcams-and-video/webcams/NET-BO-500-FHD-Webcam/p/4XC0V13599
 
-Item: Lenovo 500 FHD Webcam
+### Item: Lenovo 500 FHD Webcam
 
 Description: A USB Video Class (UVC) compliant video camera designed for teleconferencing applications on desktop or laptop. It's a reliable digital video device to transfer video data with HD quality through a high-speed USB interface in Full HD mode.It's easy to operate, and functional mechanical mechanism creates an excellent user experience. It feeds or streams its image in real-time through a computer to a computer network, and also delivers fast and secure facial recognition for Windows Hello.
 
@@ -26,7 +26,7 @@ To hold the camera in a fixed, adjustable position, we also use the following:
 
 https://www.amazon.nl/OXENDURE-webcamstandaard-armstandaard-compatibel-Logitech/dp/B07RNHZYGW/ref=pd_rhf_eetyp_p_img_1?_encoding=UTF8&psc=1&refRID=PZEGQJMH6R9BF6E7K2Q8
 
-Item: OXENDURE webcamstand 22 inch armstand with foot
+### Item: OXENDURE webcamstand 22 inch armstand with foot
 
 Description: Webcam Stand with foot
 
@@ -38,3 +38,14 @@ Specifications:
 - Quality guarantee: try it without risk! If your webcam stand has quality issues, our company offers three months warranty and 30 days unconditional return policy.
 
 Price: Euro 27,99
+
+
+### Item: BirdDog NDI mini encoder and decoder
+
+![image](https://user-images.githubusercontent.com/1499433/199108445-a5656076-7d51-4909-a811-24a26b6781fd.png)
+
+Description: BirdDog’s Mini NDI encoder and decoder is the ultimate, compact solution for enabling NDI within your workflow. BirdDog don’t just bring you NDI, but the full bit-rate NDI, instead of competition’s NDI HX, a compressed variation of the standard that reduces quality to compensate. The Mini doesn’t compromise, regardless of its size.
+
+Specifications: 
+
+Price: Euro 300,00 (2nd hand of Marktplaats.nl)
