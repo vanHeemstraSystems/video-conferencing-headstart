@@ -20,6 +20,14 @@ Specifications:
 
 Price: $69.99
 
+### Item: Mokose 4K HD HDMI/USB Web Cam
+
+Description: ...
+
+Specifications: ...
+
+Price:
+
 ## Peripherals
 
 To hold the camera in a fixed, adjustable position, we also use the following:
