@@ -53,6 +53,8 @@ Price: Euro 27,99
 
 Description: BirdDog’s Mini NDI encoder and decoder is the ultimate, compact solution for enabling NDI within your workflow. BirdDog don’t just bring you NDI, but the full bit-rate NDI, instead of competition’s NDI HX, a compressed variation of the standard that reduces quality to compensate. The Mini doesn’t compromise, regardless of its size.
 
+References: https://github.com/vanHeemstraSystems/network-device-interface
+
 Specifications: 
 
 Price: Euro 300,00 (2nd hand of Marktplaats.nl)
