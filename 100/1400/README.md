@@ -1,5 +1,244 @@
 # 1400 - Refactorings
 
+I'll create a detailed guide for setting up an optimal OBS scene that maximizes the green screen functionality for your iPad drawings.
+
+# Professional OBS Scene Setup with iPad Green Screen
+
+## Initial Scene Creation
+
+1. **Create Base Scene**
+   ```
+   1. Click '+' in Scenes panel
+   2. Name it "Interactive Drawing Scene"
+   3. Optional: Create scene collection named "iPad Overlay Setup"
+   ```
+
+2. **Add Sources in Order**
+   ```
+   Bottom → Top Layer Order:
+   1. Background (optional)
+   2. Webcam NDI Source
+   3. iPad NDI Source
+   4. Status Elements (optional)
+   ```
+
+## Detailed Source Configuration
+
+### 1. Background (Optional)
+```
+Add → Color Source:
+- Name: "Solid Background"
+- Color: Dark Gray (#222222)
+- Size: 1920x1080
+```
+
+### 2. Webcam NDI Source
+```
+Add → NDI Source:
+- Name: "Main Camera"
+- Source Name: [Your BirdDog Stream]
+- Transform:
+  * Right-click → Transform → Fit to Screen
+  * Scale with CTRL+ALT for perfect 16:9
+
+Filters to Add:
+1. Color Correction
+   - Saturation: 1.2
+   - Contrast: 1.1
+   - Brightness: -0.1
+   - Gamma: 1.1
+
+2. Sharpen
+   - Sharpness: 0.3
+```
+
+### 3. iPad NDI Source
+```
+Add → NDI Source:
+- Name: "iPad Drawing Layer"
+- Source Name: [Your iPad Stream]
+- Transform: Fit to Screen
+
+Essential Filters (In Order):
+1. Color Correction
+   - Saturation: 1.0
+   - Contrast: 1.1
+   - Gamma: 1.0
+
+2. Chroma Key
+   - Key Color Type: Custom
+   - Key Color: #00FF00
+   - Similarity: 400
+   - Smoothness: 80
+   - Key Color Spill Reduction: 100
+   - Opacity: 100
+   - Edge Feather: 2
+
+3. Sharpen
+   - Sharpness: 0.2
+
+4. GPU Delay (If needed)
+   - Delay: 1-2 frames
+```
+
+## Advanced Filter Configurations
+
+### Fine-Tuning Chroma Key
+```
+Additional Settings:
+1. Transition Override
+   - Transition: Fade
+   - Duration: 300ms
+
+2. Advanced Chroma Settings
+   - View Type: Alpha Mask
+   - Anti-Aliasing: Enabled
+   - Edge Lighting: Disabled
+```
+
+### Color Correction for Perfect Blend
+```
+Add Color Grade Filter:
+- Gamma: R:1.0, G:1.0, B:1.0
+- Lift: R:0.0, G:0.0, B:0.0
+- Saturation: 1.1
+```
+
+## Scene Variations
+
+### 1. Full Screen Drawing
+```
+Transform iPad Source:
+- Size: 1920x1080
+- Position: 0,0
+- Crop: None
+```
+
+### 2. Side Drawing Panel
+```
+Transform iPad Source:
+- Size: 640x1080
+- Position: Right
+- Add Edge Fade Filter:
+  * Edge: Left
+  * Smoothness: 20px
+```
+
+### 3. Floating Drawing Window
+```
+Transform iPad Source:
+- Size: 800x600
+- Position: Top Right
+- Add Round Corner Filter:
+  * Corner Radius: 20
+  * Feather: 2
+```
+
+## Additional Elements
+
+### Status Indicators
+```
+Add Text Sources:
+1. Drawing Mode Indicator
+   - Font: Arial Bold
+   - Size: 24px
+   - Color: White
+   - Position: Top-left
+
+2. Color Palette Reference
+   - Add Image Source
+   - Size: 100x400
+   - Position: Left edge
+   - Opacity: 80%
+```
+
+## Performance Optimization
+
+### Source Buffer Settings
+```
+For Both NDI Sources:
+- Sync: Network
+- Hardware Acceleration: Enabled
+- Low Bandwidth Mode: Disabled
+- Buffer: 1-2 frames
+```
+
+### Scene Buffer
+```
+Right-click scene → Properties:
+- Buffer Size: 2 frames
+- Enable Performance Mode
+```
+
+## Hotkeys Setup
+```
+Settings → Hotkeys:
+1. Toggle iPad Source Visibility
+   - Show: CTRL + I
+   - Hide: CTRL + SHIFT + I
+
+2. Switch Drawing Modes
+   - Full Screen: CTRL + 1
+   - Side Panel: CTRL + 2
+   - Floating: CTRL + 3
+```
+
+## Quick Access Settings
+
+### Scene Transitions
+```
+Add to Quick Controls:
+1. iPad Source Opacity
+2. Chroma Key Similarity
+3. Smoothness Adjustment
+```
+
+### Source Dock
+```
+View → Docks → Add Custom Dock:
+- Sources
+- Audio Mixer
+- Scene Transitions
+```
+
+## Testing Procedures
+
+1. **Visual Check**
+   ```
+   Test with:
+   - Different colors
+   - Various stroke widths
+   - Quick movements
+   - Static drawings
+   ```
+
+2. **Performance Check**
+   ```
+   Monitor:
+   - CPU Usage
+   - Dropped Frames
+   - NDI Performance
+   ```
+
+3. **Recording Test**
+   ```
+   Make short recordings to verify:
+   - Transparency consistency
+   - Color accuracy
+   - Edge quality
+   ```
+
+Important Tips for Success:
+1. Always test the chroma key with different drawing colors before going live
+2. Keep your iPad brightness consistent
+3. Consider creating a template in your drawing app with safe zones marked
+
+Would you like me to:
+1. Explain how to create specific drawing effects that work well with this setup?
+2. Provide additional filter combinations for different drawing styles?
+3. Show how to set up multiple scenes that share these sources?
+
+
 Let me clarify how to connect and configure your monitors in this setup.
 
 Here's the step-by-step setup:
