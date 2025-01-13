@@ -20,7 +20,7 @@ Here's the step-by-step setup:
 3. **ATEM Mini Connections**
    ```
    Current Setup:
-   Input 1: Mososo Webcam
+   Input 1: Mokose Webcam
    Input 2: iPad
    Input 3: Coding Monitor (Monitor 1)
    ```
@@ -87,7 +87,7 @@ graph TB
     A[MacMini] -->|DisplayPort/HDMI| B[Monitor 1<br>Coding Display<br>VSCode]
     A -->|USB-C/HDMI| C[Monitor 2<br>OBS Control]
     B -->|HDMI| D[ATEM Mini Input 3]
-    E[Mososo Webcam] -->|HDMI| F[ATEM Mini Input 1]
+    E[Mokose Webcam] -->|HDMI| F[ATEM Mini Input 1]
     G[iPad] -->|USB-C to HDMI| H[ATEM Mini Input 2]
     D --> I[ATEM Mini]
     F --> I
