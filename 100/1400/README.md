@@ -71,7 +71,7 @@ Would you like me to expand on any of these aspects? For example, I could provid
 
 ``` mermaid
 graph LR
-    A[Mososo Webcam] -->|HDMI| B[ATEM Mini]
+    A[mokose Webcam] -->|HDMI| B[ATEM Mini]
     C[iPad] -->|USB-C to HDMI| B
     B -->|HDMI| D[BirdDog NDI]
     D -->|Network| E[MacMini/OBS]
@@ -261,7 +261,7 @@ I've provided comprehensive settings for both ATEM Mini and OBS. A few key point
 3. The performance settings are optimized for MacMini to ensure smooth operation.
 
 Would you like me to:
-1. Add more specific settings for your Mososo webcam?
+1. Add more specific settings for your mokose webcam?
 2. Create additional scene presets for specific use cases?
 3. Explain any of the technical settings in more detail?
 
