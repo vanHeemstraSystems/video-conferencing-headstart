@@ -1,5 +1,270 @@
 # 1400 - Refactorings
 
+I'll create a detailed diagram of the setup and provide specific configuration steps.
+
+Detailed Configuration Steps:
+
+1. ATEM Mini Setup:
+   - Power on ATEM Mini
+   - Connect to ATEM Software Control on MacMini
+   - Configure inputs:
+     * Input 1: Set to HDMI (Webcam)
+     * Input 2: Set to HDMI (iPad)
+   - Set up Picture-in-Picture:
+     * Press "Picture in Picture" button on ATEM Mini
+     * Use software control to position iPad overlay
+     * Use "Picture in Picture Position" buttons for quick presets
+
+2. BirdDog NDI Setup:
+   - Connect BirdDog to network via Ethernet
+   - Access BirdDog web interface (find IP through BirdDog Central)
+   - Configure:
+     * Set video format to match ATEM output (likely 1080p60)
+     * Enable NDI output
+     * Note down the NDI stream name
+
+3. OBS Studio Setup on MacMini:
+   ```
+   a. Add NDI Source:
+      - Click '+' in Sources
+      - Select 'NDI Source'
+      - Choose your BirdDog stream from dropdown
+      - Set Resolution to match source (1080p)
+
+   b. Configure Virtual Camera:
+      - Tools → VirtualCamera
+      - Start Virtual Camera
+      - Set output resolution to 1080p
+   ```
+
+4. Teams Setup on Lenovo:
+   ```
+   a. Open Teams Settings:
+      - Click profile picture → Settings
+      - Select Devices
+      - Under Camera, choose 'OBS Virtual Camera'
+      - Test video to confirm setup
+
+   b. Additional Teams Settings:
+      - Enable hardware acceleration
+      - Set maximum incoming video quality
+   ```
+
+5. iPad Settings:
+   - Set display output to mirror
+   - Resolution to 1080p
+   - Use drawing app of choice (Procreate, Notes, etc.)
+
+Operation Tips:
+1. Always test the setup before important meetings
+2. Use ATEM Mini's preview feature to check overlay position
+3. Have preset positions saved for common overlay layouts
+4. Monitor CPU usage on MacMini to ensure smooth performance
+
+Common Troubleshooting:
+- If no NDI signal: Check network connections and BirdDog settings
+- If video lag: Reduce resolution or frame rate in OBS
+- If iPad not detected: Try disconnecting/reconnecting HDMI
+- If Teams can't see camera: Restart OBS Virtual Camera
+
+Would you like me to expand on any of these aspects? For example, I could provide more specific ATEM Mini transition settings or OBS scene composition recommendations.
+
+``` mermaid
+graph LR
+    A[Mososo Webcam] -->|HDMI| B[ATEM Mini]
+    C[iPad] -->|USB-C to HDMI| B
+    B -->|HDMI| D[BirdDog NDI]
+    D -->|Network| E[MacMini/OBS]
+    E -->|Network/Virtual Cam| F[Lenovo/Teams]
+    
+    subgraph Network
+        D
+        E
+        F
+    end
+    
+    subgraph ATEM Mini
+        B -->|Mix/PiP| B1[Internal Processing]
+    end
+    
+    subgraph OBS Studio
+        E1[NDI Source] --> E2[Scene Composition]
+        E2 --> E3[Virtual Camera Output]
+    end
+
+    style Network fill:#f9f,stroke:#333,stroke-width:2px
+    style ATEM fill:#bbf,stroke:#333,stroke-width:2px
+    style OBS fill:#bfb,stroke:#333,stroke-width:2px
+```
+
+I'll provide detailed ATEM Mini transition settings and OBS scene composition recommendations for optimal streaming quality.
+
+
+# ATEM Mini Advanced Settings Guide
+
+## 1. ATEM Mini Transition Settings
+
+### Main Program Mix Settings
+- Transition Rate: 0.5-1 second (smooth but not too slow)
+- Mix Effect 1 Settings:
+  * Background Color: Neutral Gray (#7F7F7F)
+  * Auto Transition: Enable
+  * Cut Bus Mode: Disable (for smoother transitions)
+
+### Picture-in-Picture (PiP) Presets
+1. **Corner Overlay** (Best for iPad annotations)
+   - Position: Top Right
+   - Size: 25% of screen
+   - Crop: None
+   - Border: 1px white
+   - Shadow: Soft, 20% opacity
+
+2. **Side-by-Side** (For equal emphasis)
+   - Position: Split screen
+   - Size: 50/50
+   - Border: None
+   - Gap: 10px
+
+3. **Focus Mode** (For detailed iPad work)
+   - Position: Main screen
+   - Size: 75% of screen
+   - Webcam: 25% bottom right
+
+### Advanced ATEM Settings
+- Audio Delay: 1-2 frames
+- Input Frame Sync: Enabled
+- Multi View Layout: 2x2
+- Camera Control:
+  * Sharpness: +15
+  * Auto Focus: Enabled
+  * Auto Gain: Enabled
+
+## 2. OBS Scene Compositions
+
+### Scene 1: Professional Presentation
+```
+Layout Hierarchy:
+1. Background (1920x1080 neutral gradient)
+2. Webcam Feed (16:9 aspect ratio)
+3. iPad Overlay
+4. Lower Third Banner (optional)
+```
+
+### Scene 2: Interactive Teaching
+```
+Layout Hierarchy:
+1. iPad Feed (Main display)
+2. Webcam (Picture-in-Picture)
+3. Custom Frame
+4. Status Indicators
+```
+
+### Scene 3: Discussion Mode
+```
+Layout Hierarchy:
+1. Split Screen Base
+2. Webcam (Left)
+3. iPad (Right)
+4. Transition Overlays
+```
+
+## 3. OBS Advanced Settings
+
+### Video Settings
+- Base Resolution: 1920x1080
+- Output Resolution: 1920x1080
+- Downscale Filter: Lanczos (best quality)
+- FPS: 60
+
+### Advanced Settings
+```
+Process Priority: High
+Video Memory: 2048 MB
+Color Format: NV12
+Color Space: 709
+Color Range: Partial
+```
+
+### Recommended Filters
+1. **Webcam Source:**
+   - Noise Suppression
+   - Color Correction
+     * Gamma: 1.1
+     * Contrast: 1.1
+     * Brightness: 0.0
+     * Saturation: 1.2
+
+2. **iPad Source:**
+   - Sharpness
+     * Sharpness: 2
+   - Color Correction
+     * Saturation: 1.1
+     * Gamma: 1.0
+
+### NDI Source Settings
+```
+Sync: Network (low latency)
+Hardware Acceleration: Enabled
+Low Bandwidth Mode: Disabled
+Buffer: 1-2 frames
+```
+
+## 4. Performance Optimization
+
+### MacMini Resource Allocation
+1. **CPU Priority:**
+   - OBS Studio: High
+   - ATEM Software: Above Normal
+   - Other Applications: Normal
+
+2. **Memory Allocation:**
+   - Minimum 8GB free RAM
+   - Virtual Memory: 2x RAM size
+
+### Network Optimization
+1. **QoS Settings:**
+   - NDI Traffic: Priority
+   - Port Forward: 5961-5964
+   - MTU Size: 1500
+
+2. **Bandwidth Requirements:**
+   - Minimum Upload: 20 Mbps
+   - Minimum Download: 20 Mbps
+   - Latency: <50ms
+
+## 5. Quick Action Shortcuts
+
+### ATEM Mini Hardware Buttons
+```
+1: Full Webcam
+2: Full iPad
+3: PiP Preset 1
+4: PiP Preset 2
+```
+
+### OBS Hotkeys
+```
+Alt + 1: Scene 1
+Alt + 2: Scene 2
+Alt + 3: Scene 3
+Ctrl + Alt + 1: Toggle Webcam
+Ctrl + Alt + 2: Toggle iPad
+Space: Quick Source Switch
+```
+
+I've provided comprehensive settings for both ATEM Mini and OBS. A few key points to highlight:
+
+1. The PiP presets are designed to be easily accessible during live streaming, allowing quick transitions between different views.
+
+2. The OBS scenes are structured in layers for maximum flexibility while maintaining professional quality.
+
+3. The performance settings are optimized for MacMini to ensure smooth operation.
+
+Would you like me to:
+1. Add more specific settings for your Mososo webcam?
+2. Create additional scene presets for specific use cases?
+3. Explain any of the technical settings in more detail?
+
 I'll create a detailed guide for setting up an optimal OBS scene that maximizes the green screen functionality for your iPad drawings.
 
 # Professional OBS Scene Setup with iPad Green Screen
