@@ -371,4 +371,242 @@ Would you like me to:
 3. Explain how to handle high DPI/scaled monitors?
 
 
+I'll provide detailed VSCode settings optimized for each streaming scene type.
+
+Tips for Using These Settings:
+
+1. Create different VSCode profiles for each scene type
+2. Use the Settings Sync extension to maintain configurations
+3. Test settings with your actual code before streaming
+
+Would you like me to:
+1. Create additional settings for specific programming languages?
+2. Explain how to quickly switch between these configurations?
+3. Provide custom theme settings for better visibility?
+
+# VSCode Settings Per Streaming Scene
+
+## 1. Full Code Scene Settings
+
+### Workspace Settings (settings.json)
+```json
+{
+  // Editor Appearance
+  "editor.fontSize": 16,
+  "editor.lineHeight": 24,
+  "editor.fontFamily": "JetBrains Mono, Consolas, monospace",
+  "editor.fontLigatures": true,
+  "editor.rulers": [],
+  "editor.minimap.enabled": false,
+  
+  // Workbench
+  "workbench.colorTheme": "One Dark Pro",
+  "workbench.colorCustomizations": {
+    "[One Dark Pro]": {
+      "editor.background": "#1E1E1E",
+      "sideBar.background": "#252526",
+      "activityBar.background": "#333333"
+    }
+  },
+  
+  // Terminal
+  "terminal.integrated.fontSize": 14,
+  "terminal.integrated.lineHeight": 1.2,
+  
+  // File Explorer
+  "explorer.openEditors.visible": 0,
+  "explorer.autoReveal": false,
+  
+  // Breadcrumbs
+  "breadcrumbs.enabled": true,
+  "breadcrumbs.symbolPath": "last",
+}
+```
+
+### Recommended Extensions
+```
+1. One Dark Pro (Theme)
+2. Material Icon Theme
+3. Bracket Pair Colorizer
+```
+
+## 2. Split Code and Webcam Scene
+
+### Workspace Settings
+```json
+{
+  // Editor - Optimized for half-screen
+  "editor.fontSize": 14,
+  "editor.lineHeight": 20,
+  "editor.minimap.enabled": false,
+  "editor.folding": true,
+  "editor.glyphMargin": false,
+  
+  // Sidebar
+  "workbench.sideBar.location": "left",
+  "workbench.statusBar.visible": false,
+  
+  // Activity Bar
+  "workbench.activityBar.visible": false,
+  
+  // Terminal
+  "terminal.integrated.fontSize": 12,
+  "terminal.integrated.lineHeight": 1.1,
+  
+  // Panel
+  "panel.defaultLocation": "right",
+  
+  // Window
+  "window.menuBarVisibility": "hidden",
+  "window.zoomLevel": 0.5
+}
+```
+
+## 3. Code with Drawing Overlay Scene
+
+### Workspace Settings
+```json
+{
+  // High Contrast Settings for Drawing Overlay
+  "editor.fontSize": 16,
+  "editor.lineHeight": 24,
+  "editor.fontWeight": "500",
+  
+  // Custom Colors for Better Visibility
+  "workbench.colorCustomizations": {
+    "editor.lineHighlightBackground": "#2A2A2A",
+    "editor.selectionBackground": "#264F78",
+    "editor.selectionHighlightBackground": "#264F7855"
+  },
+  
+  // Disable Distracting Features
+  "editor.overviewRulerBorder": false,
+  "editor.hideCursorInOverviewRuler": true,
+  "editor.occurrencesHighlight": false,
+  
+  // Scrolling
+  "editor.smoothScrolling": true,
+  "editor.mouseWheelScrollSensitivity": 1.5
+}
+```
+
+## 4. Debug View Scene
+
+### Workspace Settings
+```json
+{
+  // Debug UI Settings
+  "debug.toolBarLocation": "floating",
+  "debug.inlineValues": true,
+  "debug.console.fontSize": 14,
+  
+  // Editor During Debug
+  "editor.fontSize": 14,
+  "editor.lineHeight": 22,
+  
+  // Debug Highlight Colors
+  "workbench.colorCustomizations": {
+    "editor.stackFrameHighlightBackground": "#FFFF0033",
+    "editor.focusedStackFrameHighlightBackground": "#FFD70033"
+  },
+  
+  // Terminal for Debug Output
+  "terminal.integrated.fontSize": 13,
+  "terminal.integrated.lineHeight": 1.2
+}
+```
+
+## 5. Tutorial Scene Settings
+
+### Workspace Settings
+```json
+{
+  // Large, Clear Text
+  "editor.fontSize": 18,
+  "editor.lineHeight": 28,
+  "editor.fontWeight": "500",
+  
+  // Enhanced Visibility
+  "editor.renderWhitespace": "boundary",
+  "editor.renderControlCharacters": true,
+  
+  // Code Lens
+  "editor.codeLens": true,
+  "editor.codeLensFontSize": 14,
+  
+  // Comments
+  "editor.tokenColorCustomizations": {
+    "comments": "#brighterGreen",
+    "textMateRules": []
+  },
+  
+  // Breadcrumbs for Navigation
+  "breadcrumbs.enabled": true,
+  "breadcrumbs.fontSize": 14
+}
+```
+
+## Keybinding Profiles
+
+### 1. Full Code Scene
+```json
+{
+  "key": "ctrl+`",
+  "command": "workbench.action.togglePanel"
+},
+{
+  "key": "ctrl+b",
+  "command": "workbench.action.toggleSidebarVisibility"
+}
+```
+
+### 2. Split Screen Scene
+```json
+{
+  "key": "ctrl+shift+7",
+  "command": "workbench.action.toggleMaximizedPanel"
+},
+{
+  "key": "ctrl+shift+8",
+  "command": "workbench.action.toggleEditorWidths"
+}
+```
+
+## Extension Settings Per Scene
+
+### Full Code Scene
+```json
+{
+  "prettier.printWidth": 100,
+  "prettier.tabWidth": 2,
+  "gitlens.currentLine.enabled": false
+}
+```
+
+### Tutorial Scene
+```json
+{
+  "prettier.printWidth": 60,
+  "prettier.tabWidth": 4,
+  "gitlens.currentLine.enabled": true,
+  "gitlens.hovers.enabled": true
+}
+```
+
+## Language-Specific Overrides
+
+```json
+{
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true,
+    "editor.tabSize": 2
+  },
+  "[python]": {
+    "editor.formatOnSave": true,
+    "editor.tabSize": 4,
+    "editor.rulers": [80, 100]
+  }
+}
+```
 
