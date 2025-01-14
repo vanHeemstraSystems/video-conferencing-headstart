@@ -27,6 +27,58 @@ Bottom → Top Layer Order:<br/>
 3. iPad NDI Source
 4. Status Elements (optional)
 
+### Detailed Source Configuration
+1. Background (Optional)
+Add → Color Source:
+- Name: "Solid Background"
+- Color: Dark Gray (#222222)
+- Size: 1920x1080
+  
+2. Webcam NDI Source
+Add → NDI Source:
+- Name: "Main Camera"
+- Source Name: [Your BirdDog Stream]
+- Transform:
+  * Right-click → Transform → Fit to Screen
+  * Scale with CTRL+ALT for perfect 16:9
+
+Filters to Add:
+1. Color Correction
+   - Saturation: 1.2
+   - Contrast: 1.1
+   - Brightness: -0.1
+   - Gamma: 1.1
+
+2. Sharpen
+   - Sharpness: 0.3
+     
+3. iPad NDI Source
+Add → NDI Source:
+- Name: "iPad Drawing Layer"
+- Source Name: [Your iPad Stream]
+- Transform: Fit to Screen
+
+Essential Filters (In Order):
+1. Color Correction
+   - Saturation: 1.0
+   - Contrast: 1.1
+   - Gamma: 1.0
+
+2. Chroma Key
+   - Key Color Type: Custom
+   - Key Color: #00FF00
+   - Similarity: 400
+   - Smoothness: 80
+   - Key Color Spill Reduction: 100
+   - Opacity: 100
+   - Edge Feather: 2
+
+3. Sharpen
+   - Sharpness: 0.2
+
+4. GPU Delay (If needed)
+   - Delay: 1-2 frames
+
 ## Scene 1: Professional Presentation
 
 Layout Hierarchy:
