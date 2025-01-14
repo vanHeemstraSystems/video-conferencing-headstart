@@ -1,6 +1,6 @@
 # 700 - Scene Collections
 
-1. Development Collection
+## 100 - Development Collection
 
 Scenes:<br />
 - Code Full
@@ -12,7 +12,7 @@ Quick Switches:<br />
 - ALT + 1-4 for scenes
 - CTRL + Arrow keys for panels
 
-2. Tutorial Collection
+## 200 - Tutorial Collection
    
 Scenes:<br />
 - Code with Camera
