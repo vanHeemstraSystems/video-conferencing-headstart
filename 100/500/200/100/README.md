@@ -7,3 +7,7 @@ See [README.md](./100/README.md)
 ## 200 - OBS Hotkeys
 
 See [README.md](./200/README.md)
+
+## 300 - Qucik Access Settings
+
+See [README.md](./300/README.md)
