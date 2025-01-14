@@ -1,6 +1,8 @@
 # 500 Software
 
-## Item: [Microsoft Teams](https://www.microsoft.com/en-us/microsoft-365/microsoft-teams)
+## 100 - [Microsoft Teams](https://www.microsoft.com/en-us/microsoft-365/microsoft-teams)
+
+See [README.md](./100/README.md)
 
 Description: Online meetings, chat, and cloud storage, all in one place.
 
