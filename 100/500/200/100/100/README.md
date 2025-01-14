@@ -13,11 +13,76 @@ b. Configure Virtual Camera:
 
 ## Initial Scene Creation
 
-### 1. Create Base Scene
-
+### 1. Full Code Scene
 1. Click '+' in Scenes panel
-2. Name it "Interactive Drawing Scene"
-3. Optional: Create scene collection named "iPad Overlay Setup"
+2. Name it: "Code Full"
+3. Optional: Create scene collection named "Full Code Scene"
+4. Sources (Bottom to Top):<br />
+
+1. Background
+   - Color: #1E1E1E (VSCode dark theme)
+   - Size: 1920x1080
+
+2. Display Capture (Monitor 1)
+   - Capture Settings:
+     * Display: Monitor 1 (Coding Display)
+     * Method: Windows Graphics Capture
+   - Transform:
+     * Resize to 1920x1080
+     * Position: Center
+   
+3. Camera Small
+   - Size: 320x180
+   - Position: Bottom Right
+   - Filters:
+     * Round Corners: 10px
+     * Border: 2px white
+
+Layout Properties:
+- No dead zones
+- Terminal visible
+- File explorer accessible
+
+### 2. Split Code and Webcam
+1. Click '+' in Scenes panel
+2. Name it: "Code Split"
+3. Optional: Create scene collection named "Split Code and Webcam"
+4. Sources (Bottom to Top):<br />
+
+1. Display Capture (Monitor "VS Code")
+   - Transform:
+     * Size: 1280x1080
+     * Position: Left
+   - Crop:
+     * Left: 0
+     * Right: Adjust to hide unnecessary UI
+
+2. Webcam
+   - Transform:
+     * Size: 640x1080
+     * Position: Right
+   - Filters:
+     * Border: Left only, 2px white
+
+### 3. Code with Drawing Overlay
+1. Click '+' in Scenes panel
+2. Name it: "Code Annotate"
+3. Optional: Create scene collection named "Code with Drawing Overlay"
+4. Sources (Bottom to Top):<br />
+
+1. Display Capture (Monitor "VS Code")
+   - Full screen
+
+2. iPad NDI
+   - Chroma Key Filter
+   - Transform:
+     * Size: 1920x1080
+     * Position: 0,0
+
+3. Drawing Tools Indicator
+   - Text Source
+   - Position: Top Right
+   - Shows current drawing mode
 
 ### 2. Add Sources in Order
 
@@ -165,6 +230,74 @@ Add Text Sources:<br />
    - Size: 100x400
    - Position: Left edge
    - Opacity: 80%
+
+## Advanced Monitor Layouts
+
+### 1. Multi-Panel Development
+
+Name: "Dev Layout"<br />
+Regions:<br />
+
+1. Main Code (70% left)
+   - Display Capture
+   - Crop to show only editor
+
+2. Terminal (30% right top)
+   - Display Capture
+   - Region crop
+   - Transform:
+     * Size: 576x540
+     * Position: 1344,0
+
+3. File Explorer (30% right bottom)
+   - Display Capture
+   - Region crop
+   - Transform:
+     * Size: 576x540
+     * Position: 1344,540
+
+4. Camera Overlay
+   - Size: 320x180
+   - Position: Floating
+   - Toggle Hotkey: CTRL+C
+   - 
+### 2. Tutorial Layout
+
+Name: "Tutorial View"<br />
+Regions:<br />
+
+1. Code Editor (60%)
+   - Left side
+   - Crop unnecessary UI
+
+2. Preview/Browser (40% top)
+   - Second monitor capture
+   - Transform to fit
+
+3. Webcam (40% bottom)
+   - Camera source
+   - Picture-in-Picture
+
+4. Drawing Layer
+   - Full screen overlay
+   - Toggle with hotkey
+  
+### 3. Debug View
+
+Name: "Debug Mode"<br />
+Layout:<br />
+
+1. Main Debug Window (70%)
+   - Display Capture
+   - Focus on debug panel
+
+2. Variable Watch (30% right)
+   - Region capture
+   - Auto-scroll enabled
+
+3. Quick Actions Panel
+   - Bottom overlay
+   - Shows keyboard shortcuts
 
 ## OBS Advanced Settings
 
