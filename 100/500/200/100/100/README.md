@@ -84,6 +84,11 @@ Essential Filters (In Order):
 4. GPU Delay (If needed)
    - Delay: 1-2 frames
 
+
+## 100 - Advanced Filter Configurations
+
+See [README.md](./100/README.md)
+
 ## Scene 1: Professional Presentation
 
 Layout Hierarchy:
