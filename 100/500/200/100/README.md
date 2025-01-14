@@ -8,6 +8,6 @@ See [README.md](./100/README.md)
 
 See [README.md](./200/README.md)
 
-## 300 - Qucik Access Settings
+## 300 - Quick Access Settings
 
 See [README.md](./300/README.md)
