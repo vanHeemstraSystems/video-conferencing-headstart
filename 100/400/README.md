@@ -2,7 +2,7 @@
 
 ## Overview
 
-![Video Conferencing - ATEM - NDI - Networking](https://github.com/user-attachments/assets/8e4bf8ce-7daf-4c27-9844-d7b4065b7bf2)
+![Video Conferencing - ATEM - NDI - Networking](https://github.com/user-attachments/assets/a1ef7157-06ac-4bc8-b39d-cd200e8b0143)
 
 ## Camera(s)
 
