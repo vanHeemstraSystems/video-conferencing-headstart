@@ -37,3 +37,41 @@ Layout Hierarchy:
 2. Webcam (Left)
 3. iPad (Right)
 4. Transition Overlays
+
+## OBS Advanced Settings
+
+### Video Settings
+Base Resolution: 1920x1080
+Output Resolution: 1920x1080
+Downscale Filter: Lanczos (best quality)
+FPS: 60
+
+### Advanced Settings
+Process Priority: High
+Video Memory: 2048 MB
+Color Format: NV12
+Color Space: 709
+Color Range: Partial
+Recommended Filters
+Webcam Source:
+
+### Noise Suppression
+
+### Color Correction
+Gamma: 1.1
+Contrast: 1.1
+Brightness: 0.0
+Saturation: 1.2
+iPad Source:
+
+### Sharpness
+Sharpness: 2
+Color Correction
+Saturation: 1.1
+Gamma: 1.0
+
+### NDI Source Settings
+Sync: Network (low latency)
+Hardware Acceleration: Enabled
+Low Bandwidth Mode: Disabled
+Buffer: 1-2 frames
