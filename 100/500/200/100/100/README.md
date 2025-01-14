@@ -116,6 +116,36 @@ Layout Hierarchy:
 3. iPad (Right)
 4. Transition Overlays
 
+
+## Scene Variations
+
+1. Full Screen Drawing
+   
+Transform iPad Source:<br />
+- Size: 1920x1080
+- Position: 0,0
+- Crop: None
+  
+2. Side Drawing Panel
+
+Transform iPad Source:<br />
+- Size: 640x1080
+- Position: Right
+- Add Edge Fade Filter:
+  * Edge: Left
+  * Smoothness: 20px
+    
+3. Floating Drawing Window
+   
+Transform iPad Source:<br />
+- Size: 800x600
+- Position: Top Right
+- Add Round Corner Filter:
+  * Corner Radius: 20
+  * Feather: 2
+
+
+
 ## OBS Advanced Settings
 
 ### Video Settings
