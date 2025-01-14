@@ -89,6 +89,10 @@ Essential Filters (In Order):
 
 See [README.md](./100/README.md)
 
+## 200 - Performance Optimization
+
+See [README.md](./200/README.md)
+
 ## Scene 1: Professional Presentation
 
 Layout Hierarchy:
