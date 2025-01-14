@@ -19,3 +19,23 @@ Settings → Hotkeys:<br />
    - Full Screen: CTRL + 1
    - Side Panel: CTRL + 2
    - Floating: CTRL + 3
+
+## ...
+
+Global Scene Controls:<br />
+- CTRL + 1: Full Code
+- CTRL + 2: Split View
+- CTRL + 3: Debug View
+- CTRL + 4: Tutorial View
+
+Monitor Region Controls:<br />
+- ALT + 1: Focus Code
+- ALT + 2: Focus Terminal
+- ALT + 3: Focus Browser
+- ALT + 4: Focus Variables
+
+Quick Actions:<br />
+- CTRL + D: Toggle Drawing Mode
+- CTRL + C: Toggle Camera
+- CTRL + T: Toggle Terminal
+- CTRL + B: Toggle Browser
