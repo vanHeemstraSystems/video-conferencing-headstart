@@ -8,3 +8,7 @@ Specifications:
 - More...
 
 Price: Free
+
+## 100 - OBS Studio Setup on MacMini
+
+See [README.md](./100/README.md)
