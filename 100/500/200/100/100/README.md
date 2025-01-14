@@ -11,6 +11,22 @@ b. Configure Virtual Camera:
    - Start Virtual Camera
    - Set output resolution to 1080p
 
+## Initial Scene Creation
+
+### 1. Create Base Scene
+
+1. Click '+' in Scenes panel
+2. Name it "Interactive Drawing Scene"
+3. Optional: Create scene collection named "iPad Overlay Setup"
+
+### 2. Add Sources in Order
+
+Bottom → Top Layer Order:<br/>
+1. Background (optional)
+2. Webcam NDI Source
+3. iPad NDI Source
+4. Status Elements (optional)
+
 ## Scene 1: Professional Presentation
 
 Layout Hierarchy:
