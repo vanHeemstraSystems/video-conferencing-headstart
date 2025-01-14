@@ -144,7 +144,23 @@ Transform iPad Source:<br />
   * Corner Radius: 20
   * Feather: 2
 
+### Additional Elements
 
+Status Indicators
+
+Add Text Sources:<br />
+
+1. Drawing Mode Indicator
+   - Font: Arial Bold
+   - Size: 24px
+   - Color: White
+   - Position: Top-left
+
+2. Color Palette Reference
+   - Add Image Source
+   - Size: 100x400
+   - Position: Left edge
+   - Opacity: 80%
 
 ## OBS Advanced Settings
 
