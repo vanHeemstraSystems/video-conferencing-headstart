@@ -23,3 +23,7 @@ See [README.md](./500/README.md)
 ## 600 - Scene Transitions
 
 See [README.md](./600/README.md)
+
+## 700 - Scene Collections
+
+See [README.md](./700/README.md)
