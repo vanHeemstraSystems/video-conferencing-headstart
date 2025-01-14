@@ -1,8 +1,6 @@
 # 500 Software
 
-https://www.microsoft.com/en-us/microsoft-365/microsoft-teams/compare-microsoft-teams-options
-
-Item: Microsoft Teams
+## Item: Microsoft Teams
 
 Description: Online meetings, chat, and cloud storage, all in one place.
 
@@ -17,10 +15,11 @@ Specifications:
 - Together mode: Digitally sit in a shared background, making it feel like you’re all in the same room.2
 - More than 650 integrated apps and services: Bring the apps and services you love into Microsoft Teams to create your organization’s hub for teamwork.
 - Market availability: Connect across Windows, Mac, iOS, and Android. Available in 53 languages and 181 markets.
+- https://www.microsoft.com/en-us/microsoft-365/microsoft-teams/compare-microsoft-teams-options
 
 Price: See website
 
-Item: [Open Broadcaster Software (OBS)](https://obsproject.com/)
+## Item: [Open Broadcaster Software (OBS)](https://obsproject.com/)
 
 Description: Free and open source software for video recording and live streaming.
 
