@@ -19,3 +19,7 @@ See [README.md](./400/README.md)
 ## 500 - OBS Display Capture Setup
 
 See [README.md](./500/README.md)
+
+## 600 - Scene Transitions
+
+See [README.md](./600/README.md)
