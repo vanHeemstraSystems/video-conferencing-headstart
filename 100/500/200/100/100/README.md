@@ -41,37 +41,37 @@ Layout Hierarchy:
 ## OBS Advanced Settings
 
 ### Video Settings
-Base Resolution: 1920x1080
-Output Resolution: 1920x1080
-Downscale Filter: Lanczos (best quality)
-FPS: 60
+Base Resolution: 1920x1080<br/>
+Output Resolution: 1920x1080<br/>
+Downscale Filter: Lanczos (best quality)<br/>
+FPS: 60<br/>
 
 ### Advanced Settings
-Process Priority: High
-Video Memory: 2048 MB
-Color Format: NV12
-Color Space: 709
-Color Range: Partial
-Recommended Filters
-Webcam Source:
+Process Priority: High<br/>
+Video Memory: 2048 MB<br/>
+Color Format: NV12<br/>
+Color Space: 709<br/>
+Color Range: Partial<br/>
+Recommended Filters<br/>
+Webcam Source:<br/>
 
 ### Noise Suppression
 
 ### Color Correction
-Gamma: 1.1
-Contrast: 1.1
-Brightness: 0.0
-Saturation: 1.2
-iPad Source:
+Gamma: 1.1<br/>
+Contrast: 1.1<br/>
+Brightness: 0.0<br/>
+Saturation: 1.2<br/>
+iPad Source:<br/>
 
 ### Sharpness
-Sharpness: 2
-Color Correction
-Saturation: 1.1
-Gamma: 1.0
+Sharpness: 2<br/>
+Color Correction<br/>
+Saturation: 1.1<br/>
+Gamma: 1.0<br/>
 
 ### NDI Source Settings
-Sync: Network (low latency)
-Hardware Acceleration: Enabled
-Low Bandwidth Mode: Disabled
-Buffer: 1-2 frames
+Sync: Network (low latency)<br/>
+Hardware Acceleration: Enabled<br/>
+Low Bandwidth Mode: Disabled<br/>
+Buffer: 1-2 frames<br/>
