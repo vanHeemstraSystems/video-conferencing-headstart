@@ -27,3 +27,7 @@ See [README.md](./600/README.md)
 ## 700 - Scene Collections
 
 See [README.md](./700/README.md)
+
+## 800 - Monitor Specific Settings
+
+See [README.md](./800/README.md)
